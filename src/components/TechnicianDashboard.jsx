@@ -38,7 +38,7 @@ class TechnicianDashboard extends Component {
 
     try {
       const token = localStorage.getItem('token'); // JWT stored from login
-      const response = await axios.post('http://localhost:5000/upload', formData, {
+      const response = await axios.post('https://oralvis-backened-6.onrender.com/upload', formData, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'multipart/form-data',
