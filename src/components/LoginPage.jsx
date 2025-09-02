@@ -15,7 +15,7 @@ class LoginPage extends Component {
     const { email, password } = this.state;
 
     try {
-      const res = await axios.post('http://localhost:5000/login', { email, password });
+      const res = await axios.post('https://oralvis-backened-6.onrender.com/', { email, password });
 
       // Save token in localStorage
       localStorage.setItem('token', res.data.token);
