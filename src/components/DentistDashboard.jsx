@@ -15,7 +15,7 @@ class DentistDashboard extends Component {
   fetchScans = async () => {
     try {
       const token = localStorage.getItem("token");
-      const res = await axios.get("http://localhost:5000/scans", {
+      const res = await axios.get("https://oralvis-backened-6.onrender.com/scans", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
