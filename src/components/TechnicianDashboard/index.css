@@ -1,0 +1,61 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  width: 100vw;             /* full viewport width */
+  height: 100vh;            /* full viewport height */
+  background-color: #f0f0f0;
+}
+
+.upload-form-wrapper {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left; /* labels left-aligned */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-bottom: 15px;
+  color: red;
+  font-weight: bold;
+}
+
+.upload-form .form-group {
+  margin-bottom: 15px;
+}
+
+.upload-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.upload-form input,
+.upload-form select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.upload-form button {
+  display: block;
+  margin: 20px auto 0 auto; /* top margin + horizontal auto to center */
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-form button:hover {
+  background-color: #0056b3;
+}

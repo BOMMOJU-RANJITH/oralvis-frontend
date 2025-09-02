@@ -1,0 +1,39 @@
+.login-container {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  width: 100vw;             /* full viewport width */
+  height: 100vh;            /* full viewport height */
+  background-color: #f0f0f0;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 14px;   /* top-bottom = 10px, left-right = 14px */
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* ensures padding doesn’t break width */
+}
+
+
+.login-box button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
